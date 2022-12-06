@@ -20,7 +20,7 @@ This module contains the training materials to help the students/professionals t
 
 Below are the list of contents available:
 
-Session- 1 (2 Hours)
+### Session- 1 (2 Hours)
 1. Setup Python 3.8.10 (stable)
 2. What is PIP?
 3. Create a Virtual Environment
@@ -29,21 +29,21 @@ Session- 1 (2 Hours)
 6. Operators
 7. Install VS Code
 
-Session- 2 (4 Hours)
+### Session- 2 (4 Hours)
 1. Functions
 2. Classes
 3. Exceptions & Error Handling
 4. Basics of Pandas and Numpy
 
-Session- 3 (4 Hours)
+### Session- 3 (4 Hours)
 1. Data Loading Storage & File Handling
 2. Data Aggregation & Wrangling
 
-Session- 4 (2 Hours)
+### Session- 4 (2 Hours)
 1. Plotting & Visualization
 2. Data Analysis - EDA
 
-Session- 5 (1 Hours)
+### Session- 5 (1 Hours)
 1. Real World use case - solving 
 
 
