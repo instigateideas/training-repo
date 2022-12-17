@@ -1,0 +1,5 @@
+
+Hi,
+Welcome to Python Training Session. Today we will cover the list of modules below
+1. Pandas
+2. Numpy
