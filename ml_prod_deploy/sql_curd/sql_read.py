@@ -16,4 +16,4 @@ with connection.cursor() as cursor:
     output = cursor.fetchall()
 
 df =pd.DataFrame(output)
-print(df.head())
+print(df.head(15))
