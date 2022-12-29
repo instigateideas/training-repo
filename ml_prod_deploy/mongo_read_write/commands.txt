@@ -1,0 +1,13 @@
+
+# Create database - USE command
+use titanic_db;
+
+# List databases
+show dbs;
+
+# Delete database
+drop titanic_db
+
+# Create a collection
+db.createCollection("passengers_collection")
+

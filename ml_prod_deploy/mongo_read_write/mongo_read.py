@@ -8,9 +8,9 @@ mydb = myclient[database_name]
 mycol = mydb[collection_name]
 
 # Get all the records in the collection
-for x in mycol.findall():
+for x in mycol.find({}):
   print(x)
 
 # Find the collection with id 12
-for x in mycol.find({}, {"_id": 12}):
+for x in mycol.find({"PassengerId": 12}):
   print(x)

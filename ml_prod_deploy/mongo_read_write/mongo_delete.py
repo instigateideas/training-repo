@@ -7,6 +7,8 @@ myclient = pymongo.MongoClient("mongodb://localhost:27017/")
 mydb = myclient[database_name]
 mycol = mydb[collection_name]
 
-myquery = { "_id": 12 }
+myquery = {"PassengerId": 12}
 
-mycol.delete_one(myquery)
+x = mycol.delete_one(myquery)
+
+print(x.deleted_count, " documents deleted.")
