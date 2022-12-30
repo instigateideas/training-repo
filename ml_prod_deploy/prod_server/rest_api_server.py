@@ -17,7 +17,7 @@ app = Flask(__name__)
 @app.errorhandler(403)
 def permission_error(e):
     logging.info("you don't have the neccessary permission to access the API")
-    return render_template('403.html', error_code=403), 403
+    return render_template('403.html', error_code=403)
 
 @app.before_request
 def limit_remote_addr():

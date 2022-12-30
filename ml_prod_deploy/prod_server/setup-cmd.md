@@ -77,9 +77,17 @@ sudo apt install -y python3-pip
 sudo apt install -y virtualenv && pip3 install virtualenv
 ```
 
+### Install Python Package manager
+```bash
+sudo apt install software-properties-common -y && sudo add-apt-repository ppa:deadsnakes/ppa
+```
+
+### Install Python 3.10
+sudo apt install python3.10
+
 ### Create a virtual environment
 ```bash
-virtualenv --python=python3 venv
+virtualenv -p /usr/bin/python3.10 venv
 ```
 
 ### Activate the Virtual Environment
