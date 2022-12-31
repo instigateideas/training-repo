@@ -7,7 +7,7 @@ import logging
 logging.basicConfig(level=logging.DEBUG, filename="app_server.log", filemode='a', \
     format='%(name)s - %(levelname)s - %(asctime)s - %(message)s')
 
-ALLOWED_IPS = ['192.168.1.', '127.0.0.1']
+ALLOWED_IPS = ['192.168.1.10', '127.0.0.1', '117.213.96.235']
 
 local_classifier = pickle.load(open('./pickle_files/classifier.pickle','rb'))
 local_scaler = pickle.load(open('./pickle_files/sc.pickle','rb'))
@@ -50,7 +50,8 @@ def ml_model():
         return jsonify({"prediction": "Error in the data sent"})
 
 if __name__ == "__main__":
-    app.run(host='0.0.0.0', port=5000)
+    app.run(host='0.0.0.0', port=5000, debug=False)
+    # 127.0.0.1
     
     
     

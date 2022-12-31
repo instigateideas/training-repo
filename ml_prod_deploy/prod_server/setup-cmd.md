@@ -104,3 +104,7 @@ venv/Scripts/activate
 pip3 install -r requirements.txt
 ``` 
 
+### Install Uwsgi
+```bash
+ pip3 install uwsgi
+```

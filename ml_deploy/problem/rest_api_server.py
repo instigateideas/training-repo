@@ -21,6 +21,7 @@ def ml_model():
     pred_proba = {"prediction": int(pred_proba)}
     return jsonify(pred_proba)
 
+
 if __name__ == "__main__":
     app.run(port=8005, debug=True)
     

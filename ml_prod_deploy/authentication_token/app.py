@@ -18,11 +18,21 @@ logging.basicConfig(level=logging.DEBUG, filename="app_server.log", filemode='a'
 model = pickle.load(open("model.pkl", "rb"))
 ALLOWED_IPS = ['192.168.1.', '127.0.0.1']
 
-# Configurations
+# Database Configurations
 app = Flask(__name__)
 app.config['SECRET_KEY']='Th1s1ss3cr3t'
-app.config['SQLALCHEMY_DATABASE_URI']='sqlite://///home/arunachalamdharmaraj/Documents/training-repo/ml_prod_deploy/authentication_token/register.db'
+app.config['SQLALCHEMY_DATABASE_URI']='sqlite://///home/arunachalamdharmaraj/Documents/training-repo/ml_prod_deploy/authentication_token/users.db'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = True
+
+# Security Configurations
+# app.config.update(
+#     SESSION_COOKIE_SECURE=True,
+#     SESSION_COOKIE_HTTPONLY=True,
+#     SESSION_COOKIE_SAMESITE='Lax',
+#     PERMANENT_SESSION_LIFETIME=600
+# )
+# request.set_cookie('username', 'flask', secure=True, httponly=True, samesite='Lax')
+
 db = SQLAlchemy(app)
 
 class Users(db.Model):

@@ -43,6 +43,6 @@ def get_prediction(data, token):
 data = {"Sepal_Length": 5, "Sepal_Width": 4, "Petal_Length": 1.3, "Petal_Width": 0.3}
 # register_user(name="mrx", password="Yah@1245")
 # list_users()
-token = login_to_api(username="mrx", password="Yah@1245")
+token = login_to_api(username="anthony", password="Read@123")
 prediction = get_prediction(data=data, token=token)
 

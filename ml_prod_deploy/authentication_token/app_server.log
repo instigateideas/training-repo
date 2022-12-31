@@ -1,0 +1,31 @@
+werkzeug - INFO - 2022-12-31 11:56:35,360 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+werkzeug - INFO - 2022-12-31 11:56:35,360 - [33mPress CTRL+C to quit[0m
+werkzeug - INFO - 2022-12-31 11:56:35,362 -  * Restarting with stat
+werkzeug - WARNING - 2022-12-31 11:56:35,981 -  * Debugger is active!
+werkzeug - INFO - 2022-12-31 11:56:35,981 -  * Debugger PIN: 137-116-911
+root - INFO - 2022-12-31 11:58:44,595 - IP: 127.0.0.1 address is allowed
+werkzeug - INFO - 2022-12-31 11:58:44,609 - 127.0.0.1 - - [31/Dec/2022 11:58:44] "POST /register HTTP/1.1" 200 -
+werkzeug - INFO - 2022-12-31 12:00:57,169 -  * Detected change in '/home/arunachalamdharmaraj/Documents/training-repo/ml_prod_deploy/authentication_token/test_client.py', reloading
+werkzeug - INFO - 2022-12-31 12:00:57,314 -  * Restarting with stat
+werkzeug - WARNING - 2022-12-31 12:00:57,934 -  * Debugger is active!
+werkzeug - INFO - 2022-12-31 12:00:57,934 -  * Debugger PIN: 137-116-911
+root - INFO - 2022-12-31 12:01:34,197 - IP: 127.0.0.1 address is allowed
+werkzeug - INFO - 2022-12-31 12:01:34,200 - 127.0.0.1 - - [31/Dec/2022 12:01:34] "GET /users HTTP/1.1" 200 -
+root - INFO - 2022-12-31 12:03:14,729 - IP: 127.0.0.1 address is allowed
+werkzeug - INFO - 2022-12-31 12:03:14,731 - 127.0.0.1 - - [31/Dec/2022 12:03:14] "GET /login HTTP/1.1" 200 -
+root - INFO - 2022-12-31 12:04:18,630 - IP: 127.0.0.1 address is allowed
+root - INFO - 2022-12-31 12:04:18,647 - User: anthony accessed ML API from Machine of IP: 127.0.0.1
+werkzeug - INFO - 2022-12-31 12:04:18,648 - 127.0.0.1 - - [31/Dec/2022 12:04:18] "POST /predict HTTP/1.1" 200 -
+werkzeug - INFO - 2022-12-31 12:06:36,930 -  * Detected change in '/home/arunachalamdharmaraj/Documents/training-repo/ml_prod_deploy/authentication_token/test_client.py', reloading
+werkzeug - INFO - 2022-12-31 12:06:37,095 -  * Restarting with stat
+werkzeug - WARNING - 2022-12-31 12:06:37,751 -  * Debugger is active!
+werkzeug - INFO - 2022-12-31 12:06:37,751 -  * Debugger PIN: 137-116-911
+root - INFO - 2022-12-31 12:06:54,771 - IP: 127.0.0.1 address is allowed
+werkzeug - INFO - 2022-12-31 12:06:54,775 - 127.0.0.1 - - [31/Dec/2022 12:06:54] "GET /login HTTP/1.1" 200 -
+root - INFO - 2022-12-31 12:06:54,777 - IP: 127.0.0.1 address is allowed
+root - INFO - 2022-12-31 12:06:54,784 - User: anthony accessed ML API from Machine of IP: 127.0.0.1
+werkzeug - INFO - 2022-12-31 12:06:54,784 - 127.0.0.1 - - [31/Dec/2022 12:06:54] "POST /predict HTTP/1.1" 200 -
+root - INFO - 2022-12-31 12:07:23,137 - IP: 127.0.0.1 address is allowed
+root - INFO - 2022-12-31 12:07:23,143 - User: anthony accessed ML API from Machine of IP: 127.0.0.1
+werkzeug - INFO - 2022-12-31 12:07:23,144 - 127.0.0.1 - - [31/Dec/2022 12:07:23] "POST /predict HTTP/1.1" 200 -
